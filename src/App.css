@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root {
+  --primary-yellow: #f2bc1b;
+  --primary-black:#212529;
+  --primary-light-red: #F25757;
+}
+
+body {
+  
+  font-family: 'Merriweather', serif;
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: var(--primary-black); 
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-track-piece {
+  
+  background: var(--primary-black); 
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-yellow); 
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-yellow); 
+}
+
+/*--------- HOME PAGE LOGO ---------*/
+
+.logo {
+  width: 3.438rem;
+  height: 3.438rem;
+}
+
+.banner {
+  width: 9.688rem;
+  height: 3.438rem;
+}
+
+/*--------- NAV BAR ---------*/
+
+nav {
+  z-index: 2;
+  
+}
+
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-yellow) !important;
+  border-top: 0.1875rem solid var(--primary-black);
+}
+
+.navbar-nav > li > a.active , .navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid var(--primary-yellow);
+
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-yellow);
+
+}
+
+.header-wraper {
+
+  position: relative;
+  background: url(./assets/skyhi-bg.JPG) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+
+}
+
+div.fixed {
+
+  position: fixed;
+  top: 1;
+  bottom: 0;
+  right: 0;
+  width: 700px;
+  border: 10px solid var(--primary-yellow);
+  background-color: var(--primary-black);
+}
+
+.fixed h1 {
+  color: var(--primary-yellow);
+}
+
+.main-info {
+
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+  
+}
+
+.main-info h1 {
+
+  color: var(--primary-yellow);
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.06rem black;
+  background-color: var(--primary-black);
+
+}
+
+
+/*--------- TYPE TEXT ---------*/
+.type-text {
+
+  color: var(--primary-black);
+  font-size: 2rem;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.06rem var(--primary-black);
+  background-color: var(--primary-yellow);
+
+}
+/*--------- CONTACT BOTTON ---------*/
+
+.btn-contact {
+
+  text-transform: uppercase;
+  padding: 0.625rem 0.75rem 0.75rem 0.75px;
+  margin: 5rem;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  display: inline-block;
+  background-color: var(--primary-black);
+  color: var(--primary-yellow);
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+/*--------- PARTICLE ---------*/
+
+.tsparticles-canvas-el {
+
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  color: var(--primary-yellow);
+}
+/*--------- RESOLUTION BY DEVICE ---------*/
+@media(max-width: 768px ) {
+
+  .particle-canvas {
+    display: none;
+  }
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .type-text {
+    font-size: 1.3rem !important;
+  }
+  .navbar-brand {
+    size: inherit;
+  }
+}
+
+/*--------- FOOTER ---------*/
+
+
+

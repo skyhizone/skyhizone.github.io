@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/skyhi.live/static/css/main.1f0e54a6.chunk.css",
+    "main.js": "/skyhi.live/static/js/main.f8929507.chunk.js",
+    "main.js.map": "/skyhi.live/static/js/main.f8929507.chunk.js.map",
+    "runtime-main.js": "/skyhi.live/static/js/runtime-main.67102f25.js",
+    "runtime-main.js.map": "/skyhi.live/static/js/runtime-main.67102f25.js.map",
+    "static/css/2.2f9ba80b.chunk.css": "/skyhi.live/static/css/2.2f9ba80b.chunk.css",
+    "static/js/2.17c7bc80.chunk.js": "/skyhi.live/static/js/2.17c7bc80.chunk.js",
+    "static/js/2.17c7bc80.chunk.js.map": "/skyhi.live/static/js/2.17c7bc80.chunk.js.map",
+    "static/js/3.66858e06.chunk.js": "/skyhi.live/static/js/3.66858e06.chunk.js",
+    "static/js/3.66858e06.chunk.js.map": "/skyhi.live/static/js/3.66858e06.chunk.js.map",
+    "index.html": "/skyhi.live/index.html",
+    "static/css/2.2f9ba80b.chunk.css.map": "/skyhi.live/static/css/2.2f9ba80b.chunk.css.map",
+    "static/css/main.1f0e54a6.chunk.css.map": "/skyhi.live/static/css/main.1f0e54a6.chunk.css.map",
+    "static/js/2.17c7bc80.chunk.js.LICENSE.txt": "/skyhi.live/static/js/2.17c7bc80.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/skyhi.live/static/media/skyhi-bg.a9f1227d.JPG",
+    "static/media/skyhi-icon.cce1fb3a.png": "/skyhi.live/static/media/skyhi-icon.cce1fb3a.png",
+    "static/media/telegram.3c933386.webp": "/skyhi.live/static/media/telegram.3c933386.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67102f25.js",
+    "static/css/2.2f9ba80b.chunk.css",
+    "static/js/2.17c7bc80.chunk.js",
+    "static/css/main.1f0e54a6.chunk.css",
+    "static/js/main.f8929507.chunk.js"
+  ]
+}
